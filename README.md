@@ -23,7 +23,7 @@ The things you will need to install the software are a computer that isn't too o
 
 1. Clone the repositories to your local machine: 
 ```
-git clone git@github.com:JuanCamiloClement/proyecto-inicial-MIR.git
+git clone git@github.com:JuanCamiloClement/proyecto-inicial-frontend.git
 ```
 
 and
@@ -32,9 +32,9 @@ and
 git clone git@github.com:JuanCamiloClement/proyecto-inicial-backend.git
 ```
 
-2. Change directory to /proyecto-inicial-MIR:
+2. Change directory to /proyecto-inicial-frontend:
 ```
-cd proyecto-inicial-MIR
+cd proyecto-inicial-frontend
 ```
 
 Also change to proyecto-inicial-backend in the second repository:
@@ -71,19 +71,19 @@ npm install cors
 
 4. Run the code!
 
-In the frontend repository, it's necessary to do a second command equal to the first one
+Make sure to be in each repository:
 ```
-cd proyecto-inicial-MIR
+cd proyecto-inicial-frontend
 ```
 Once there, execute
 ```
 npm run dev
 ```
-For the backend, execute the same second command. Remember to keep both running!
+For the backend, execute the same commands. Remember to keep both running!
 
 5. Access the application from your browser
 
-Access http://localhost:3000 in your favorite browser
+Access [https://proyecto-inicial-frontend.vercel.app/](https://proyecto-inicial-frontend.vercel.app/) in your favorite browser.
 
 ## Deployment 📦
 
