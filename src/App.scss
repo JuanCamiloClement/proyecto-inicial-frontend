@@ -1,0 +1,39 @@
+:root {
+    font-size: 16px;
+
+    @media screen and (min-width: 375px) {
+        font-size: 20px;
+    }
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    .app {
+
+
+
+        .container__content {
+            display: flex;
+            gap: 10px;
+            background-color: white;
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            @media screen and (max-width: 800px) {
+                flex-wrap: wrap;
+
+            }
+
+        }
+    }
+
+}
